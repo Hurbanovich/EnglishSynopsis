@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="buttonText">
+        <item name="android:textColor">@drawable/btn_color_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:shadowColor">#ab020202</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">12</item>
+    </style>
+
+    <style name="memorizingText">
+        <item name="android:textColor">@drawable/btn_color_text</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:shadowColor">#ab020202</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">12</item>
+    </style>
+
+    <style name="fonText">
+        <item name="android:textColor">@color/gray_200</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

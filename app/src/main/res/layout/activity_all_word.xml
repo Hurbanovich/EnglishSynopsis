@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_16sdp"
+        android:background="@color/gray_300"
+        tools:context=".activities.AllWordActivity">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <EditText android:layout_width="240dp"
+                      android:layout_height="wrap_content"
+                      app:backgroundTint="@null"
+                      android:id="@+id/edit_en_word"
+                      android:textColor="@color/gray_200"
+                      android:hint="@string/english"
+                      android:textColorHint="@color/blue_400"
+                      android:padding="@dimen/_12sdp"
+                      android:background="@drawable/state_input"/>
+            <EditText android:layout_width="240dp"
+                      android:layout_height="wrap_content"
+                      app:backgroundTint="@null"
+                      android:textColor="@color/gray_200"
+                      android:id="@+id/edit_ru_word"
+                      android:layout_marginTop="@dimen/_8sdp"
+                      android:hint="@string/russian"
+                      android:textColorHint="@color/blue_400"
+                      android:padding="@dimen/_12sdp"
+                      android:background="@drawable/state_input"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <Button android:layout_width="wrap_content" android:layout_height="14dp"
+                    android:layout_weight="1"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/state_button"
+                    style="@style/buttonText"
+                    android:fontFamily="@font/regular"
+                    android:id="@+id/bt_reset"
+                    android:text="@string/reset"/>
+            <Button android:layout_width="wrap_content" android:layout_height="13dp"
+                    android:layout_weight="1"
+                    app:backgroundTint="@null"
+                    style="@style/buttonText"
+                    android:fontFamily="@font/regular"
+                    android:background="@drawable/state_button"
+                    android:id="@+id/bt_add"
+                    android:text="@string/add"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8ssp"
+            app:srcCompat="@drawable/line" android:id="@+id/imageView4"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView android:layout_width="match_parent" android:layout_height="match_parent"
+                                               android:id="@+id/recycler_view"
+                                               android:layout_marginTop="@dimen/_8sdp"
+                                               tools:listitem="@layout/item_word" >
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

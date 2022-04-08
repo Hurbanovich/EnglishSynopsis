@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">English Synopsis</string>
+    <string name="search">поиск</string>
+    <string name="learn_words">all list words</string>
+    <string name="learn_english_words">learn english words</string>
+    <string name="learn_russian_words">learn russian words</string>
+    <string name="spelling_of_words">grammar of words</string>
+    <string name="new_word">Add new word</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="add">Add</string>
+    <string name="next">next</string>
+    <string name="check">check</string>
+    <string name="delete">delete</string>
+    <string name="reset">reset</string>
+    <string name="back">back</string>
+    <string name="check_spelling">check</string>
+    <string name="show">show</string>
+    <string name="main">main</string>
+    <string name="enter_the_translation">enter the translation</string>
+    <string name="home">HOME</string>
+    <string name="click_next_to_start">CLICK NEXT TO START</string>
+    <string name="entered_translation">ENTERED TRANSLATION :</string>
+    <string name="see">see</string>
+    <string name="enter">enter</string>
+</resources>
